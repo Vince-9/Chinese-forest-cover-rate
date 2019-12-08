@@ -71,6 +71,7 @@ li {
 
 .titles .title {
     z-index: 1000;
+    text-shadow: 2px 3px 7px rgba(255, 255, 255, .6);
 }
 
 .show-up {
@@ -209,6 +210,42 @@ li {
     padding: 0;
     color: white;
     font-size: 30px;
+    text-shadow: 2px 3px 7px rgba(255, 255, 255, .6);
+}
+
+.introduce {
+    margin: 100px auto 0 auto;
+    width: 70%;
+    height: 600px;
+}
+
+.introduce h1, .introduce h2 {
+    margin: 15px 0;
+}
+
+.introduce h1{
+    font-size: 30px;
+}
+
+.introduce h2{
+    font-size: 25px;
+}
+
+.introduce p {
+    margin: 12px 0;
+    font-size: 16px;
+}
+
+.introduce .forest-img{
+    display: block;
+    margin: 30px auto;
+    width: 600px;
+    box-shadow: 5px 5px 15px 3px rgba(0, 0, 0, 0.7);
+    transition: transform .5s;
+}
+
+.introduce .forest-img:hover{
+    transform: translateY(-20px) scale(1.1);
 }
 
 #map {
@@ -219,7 +256,7 @@ li {
 
 .map-label {
     position: absolute;
-    top: 473px;
+    top: 1175px;
     right: 70px;
 }
 
@@ -227,4 +264,8 @@ li {
     list-style: none;
     margin-bottom: 5.2px;
     font-size: 14px;
+}
+
+#chart {
+    height: 600px;
 }
